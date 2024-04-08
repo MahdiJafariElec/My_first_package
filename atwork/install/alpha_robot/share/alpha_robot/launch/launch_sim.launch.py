@@ -1,0 +1,1 @@
+/home/mahdi/atwork/robot_ws/src/alpha_robot/launch/launch_sim.launch.py

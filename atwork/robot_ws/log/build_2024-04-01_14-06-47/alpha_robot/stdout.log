@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/config/empty.yaml
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/description/atwork.urdf.xacro
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/description/robot_core.xacro
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/launch/rsp.launch.py
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/worlds/empty.world
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/ament_index/resource_index/package_run_dependencies/alpha_robot
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/ament_index/resource_index/parent_prefix_path/alpha_robot
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/environment/ament_prefix_path.sh
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/environment/path.sh
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/environment/path.dsv
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/local_setup.bash
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/local_setup.sh
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/local_setup.zsh
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/local_setup.dsv
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/package.dsv
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/ament_index/resource_index/packages/alpha_robot
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/cmake/alpha_robotConfig.cmake
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/cmake/alpha_robotConfig-version.cmake
+-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/package.xml

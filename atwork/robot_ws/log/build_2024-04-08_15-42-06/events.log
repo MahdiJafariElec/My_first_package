@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.001723] (alpha_robot) JobQueued: {'identifier': 'alpha_robot', 'dependencies': OrderedDict()}
+[0.002253] (alpha_robot) JobStarted: {'identifier': 'alpha_robot'}
+[0.030993] (alpha_robot) JobProgress: {'identifier': 'alpha_robot', 'progress': 'cmake'}
+[0.037113] (alpha_robot) JobProgress: {'identifier': 'alpha_robot', 'progress': 'build'}
+[0.037233] (alpha_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mahdi/atwork/robot_ws/build/alpha_robot', '--', '-j6', '-l6'], 'cwd': '/home/mahdi/atwork/robot_ws/build/alpha_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'mahdi'), ('LC_TIME', 'az_IR'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahdi'), ('OLDPWD', '/home/mahdi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'az_IR'), ('SYSTEMD_EXEC_PID', '1512'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahdi/Desktop/ldlidar_ros2_ws/install:/home/mahdi/atwork/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahdi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mahdi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/1481,unix/ubuntu22:/tmp/.ICE-unix/1481'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dd8c5f2f_f5bb_410f_8a93_54c5220a6927'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'az_IR'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BSL3L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mahdi/Desktop/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/mahdi/atwork/robot_ws/install/alpha_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'az_IR'), ('LC_IDENTIFICATION', 'az_IR'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mahdi/atwork/robot_ws/build/alpha_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mahdi/Desktop/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/mahdi/atwork/robot_ws/install/alpha_robot:/opt/ros/humble')]), 'shell': False}
+[0.100910] (-) TimerEvent: {}
+[0.201701] (-) TimerEvent: {}
+[0.236055] (alpha_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.305514] (-) TimerEvent: {}
+[0.407117] (-) TimerEvent: {}
+[0.471666] (alpha_robot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.512787] (-) TimerEvent: {}
+[0.519461] (alpha_robot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.615800] (-) TimerEvent: {}
+[0.695978] (alpha_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.714575] (alpha_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.717344] (-) TimerEvent: {}
+[0.735692] (alpha_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.780790] (alpha_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.815020] (alpha_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.818250] (-) TimerEvent: {}
+[0.918831] (-) TimerEvent: {}
+[0.943714] (alpha_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.957158] (alpha_robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.022222] (-) TimerEvent: {}
+[1.123151] (-) TimerEvent: {}
+[1.142746] (alpha_robot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.170403] (alpha_robot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.212611] (alpha_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.223326] (-) TimerEvent: {}
+[1.235572] (alpha_robot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.324330] (-) TimerEvent: {}
+[1.426294] (-) TimerEvent: {}
+[1.527026] (-) TimerEvent: {}
+[1.577891] (alpha_robot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.579234] (alpha_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.629061] (-) TimerEvent: {}
+[1.702057] (alpha_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.703107] (alpha_robot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.730949] (-) TimerEvent: {}
+[1.831333] (-) TimerEvent: {}
+[1.931904] (-) TimerEvent: {}
+[2.033249] (-) TimerEvent: {}
+[2.037441] (alpha_robot) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.133595] (-) TimerEvent: {}
+[2.234246] (-) TimerEvent: {}
+[2.258317] (alpha_robot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.336305] (-) TimerEvent: {}
+[2.444639] (-) TimerEvent: {}
+[2.462028] (alpha_robot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.462478] (alpha_robot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/mahdi/atwork/robot_ws/src/alpha_robot/include;/home/mahdi/atwork/robot_ws/src/alpha_robot/ldlidar_driver/include/core;/home/mahdi/atwork/robot_ws/src/alpha_robot/ldlidar_driver/include/dataprocess;/home/mahdi/atwork/robot_ws/src/alpha_robot/ldlidar_driver/include/filter;/home/mahdi/atwork/robot_ws/src/alpha_robot/ldlidar_driver/include/logger;/home/mahdi/atwork/robot_ws/src/alpha_robot/ldlidar_driver/include/networkcom;/home/mahdi/atwork/robot_ws/src/alpha_robot/ldlidar_driver/include/serialcom\n'}
+[2.462550] (alpha_robot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.464357] (alpha_robot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.465840] (alpha_robot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.466476] (alpha_robot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.469039] (alpha_robot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.469205] (alpha_robot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.470785] (alpha_robot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.481133] (alpha_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.511084] (alpha_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[2.515370] (alpha_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/mahdi/atwork/robot_ws/build/alpha_robot\n'}
+[2.546235] (-) TimerEvent: {}
+[2.578085] (alpha_robot) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/alpha_robot_node.dir/src/demo.cpp.o\x1b[0m\n'}
+[2.595718] (alpha_robot) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/alpha_robot_node.dir/ldlidar_driver/src/filter/tofbf.cpp.o\x1b[0m\n'}
+[2.600176] (alpha_robot) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/alpha_robot_node.dir/ldlidar_driver/src/core/ldlidar_driver.cpp.o\x1b[0m\n'}
+[2.621314] (alpha_robot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/alpha_robot_node.dir/ldlidar_driver/src/dataprocess/lipkg.cpp.o\x1b[0m\n'}
+[2.624348] (alpha_robot) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/alpha_robot_node.dir/ldlidar_driver/src/logger/log_module.cpp.o\x1b[0m\n'}
+[2.624554] (alpha_robot) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/alpha_robot_node.dir/ldlidar_driver/src/networkcom/network_socket_interface_linux.cpp.o\x1b[0m\n'}
+[2.650047] (-) TimerEvent: {}
+[2.763720] (-) TimerEvent: {}
+[2.867566] (-) TimerEvent: {}
+[2.972183] (-) TimerEvent: {}
+[3.079828] (-) TimerEvent: {}
+[3.181939] (-) TimerEvent: {}
+[3.283383] (-) TimerEvent: {}
+[3.384186] (-) TimerEvent: {}
+[3.486540] (-) TimerEvent: {}
+[3.590542] (-) TimerEvent: {}
+[3.703204] (-) TimerEvent: {}
+[3.804999] (-) TimerEvent: {}
+[3.906831] (-) TimerEvent: {}
+[4.010922] (-) TimerEvent: {}
+[4.114071] (-) TimerEvent: {}
+[4.218341] (-) TimerEvent: {}
+[4.324516] (-) TimerEvent: {}
+[4.429855] (-) TimerEvent: {}
+[4.531599] (-) TimerEvent: {}
+[4.604089] (alpha_robot) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/alpha_robot_node.dir/ldlidar_driver/src/serialcom/serial_interface_linux.cpp.o\x1b[0m\n'}
+[4.643058] (-) TimerEvent: {}
+[4.901147] (-) TimerEvent: {}
+[5.271529] (-) TimerEvent: {}
+[5.378608] (-) TimerEvent: {}
+[6.475056] (-) TimerEvent: {}
+[6.933487] (-) TimerEvent: {}
+[7.289961] (-) TimerEvent: {}
+[7.391596] (-) TimerEvent: {}
+[7.493408] (-) TimerEvent: {}
+[7.600660] (-) TimerEvent: {}
+[7.715048] (-) TimerEvent: {}
+[7.816008] (-) TimerEvent: {}
+[7.951381] (-) TimerEvent: {}
+[8.607840] (-) TimerEvent: {}
+[8.713646] (-) TimerEvent: {}
+[8.827862] (-) TimerEvent: {}
+[8.915436] (alpha_robot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable alpha_robot_node\x1b[0m\n'}
+[8.928447] (-) TimerEvent: {}
+[9.032619] (-) TimerEvent: {}
+[9.135020] (-) TimerEvent: {}
+[9.235899] (-) TimerEvent: {}
+[9.319967] (alpha_robot) StdoutLine: {'line': b'[100%] Built target alpha_robot_node\n'}
+[9.333639] (alpha_robot) CommandEnded: {'returncode': 0}
+[9.337885] (-) TimerEvent: {}
+[9.425021] (alpha_robot) JobProgress: {'identifier': 'alpha_robot', 'progress': 'install'}
+[9.436214] (alpha_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mahdi/atwork/robot_ws/build/alpha_robot'], 'cwd': '/home/mahdi/atwork/robot_ws/build/alpha_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'mahdi'), ('LC_TIME', 'az_IR'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahdi'), ('OLDPWD', '/home/mahdi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'az_IR'), ('SYSTEMD_EXEC_PID', '1512'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahdi/Desktop/ldlidar_ros2_ws/install:/home/mahdi/atwork/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahdi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mahdi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/1481,unix/ubuntu22:/tmp/.ICE-unix/1481'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dd8c5f2f_f5bb_410f_8a93_54c5220a6927'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'az_IR'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BSL3L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mahdi/Desktop/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/mahdi/atwork/robot_ws/install/alpha_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'az_IR'), ('LC_IDENTIFICATION', 'az_IR'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mahdi/atwork/robot_ws/build/alpha_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mahdi/Desktop/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/mahdi/atwork/robot_ws/install/alpha_robot:/opt/ros/humble')]), 'shell': False}
+[9.438092] (-) TimerEvent: {}
+[9.445128] (alpha_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.445330] (alpha_robot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.447479] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/config/empty.yaml\n'}
+[9.448587] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/config/view_bot.rviz\n'}
+[9.449907] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/description/atwork.urdf.xacro\n'}
+[9.450593] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/description/gazebo_control.xacro\n'}
+[9.451461] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/description/inertia.marcos.xacro\n'}
+[9.452311] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/description/lidar.xacro\n'}
+[9.453336] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/description/robot_core.xacro\n'}
+[9.454716] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/launch/launch_sim.launch.py\n'}
+[9.455244] (alpha_robot) StdoutLine: {'line': b'-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/launch/ld19.launch.py\n'}
+[9.464361] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/launch/rplidar.launch.py\n'}
+[9.465184] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/launch/rsp.launch.py\n'}
+[9.467855] (alpha_robot) StdoutLine: {'line': b'-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/launch/viewer_ld19.launch.py\n'}
+[9.491598] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/worlds/empty.world\n'}
+[9.491817] (alpha_robot) StdoutLine: {'line': b'-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/lib/alpha_robot/alpha_robot_node\n'}
+[9.503922] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/ament_index/resource_index/package_run_dependencies/alpha_robot\n'}
+[9.508851] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/ament_index/resource_index/parent_prefix_path/alpha_robot\n'}
+[9.509581] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/environment/ament_prefix_path.sh\n'}
+[9.510447] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/environment/ament_prefix_path.dsv\n'}
+[9.511796] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/environment/path.sh\n'}
+[9.512461] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/environment/path.dsv\n'}
+[9.513374] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/local_setup.bash\n'}
+[9.514792] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/local_setup.sh\n'}
+[9.515804] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/local_setup.zsh\n'}
+[9.517363] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/local_setup.dsv\n'}
+[9.517514] (alpha_robot) StdoutLine: {'line': b'-- Symlinking: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/package.dsv\n'}
+[9.527941] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/ament_index/resource_index/packages/alpha_robot\n'}
+[9.530334] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/cmake/alpha_robotConfig.cmake\n'}
+[9.531442] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/cmake/alpha_robotConfig-version.cmake\n'}
+[9.531754] (alpha_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mahdi/atwork/robot_ws/install/alpha_robot/share/alpha_robot/package.xml\n'}
+[9.533604] (alpha_robot) CommandEnded: {'returncode': 0}
+[9.538533] (-) TimerEvent: {}
+[9.638941] (-) TimerEvent: {}
+[9.677504] (alpha_robot) JobEnded: {'identifier': 'alpha_robot', 'rc': 0}
+[9.682645] (-) EventReactorShutdown: {}

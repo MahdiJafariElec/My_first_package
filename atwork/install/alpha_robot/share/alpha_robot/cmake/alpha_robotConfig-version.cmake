@@ -1,0 +1,1 @@
+/home/mahdi/atwork/build/alpha_robot/ament_cmake_core/alpha_robotConfig-version.cmake

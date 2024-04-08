@@ -1,0 +1,4 @@
+Invoking command in '/home/mahdi/atwork/robot_ws/build/alpha_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahdi/atwork/robot_ws/build/alpha_robot -- -j6 -l6
+Invoked command in '/home/mahdi/atwork/robot_ws/build/alpha_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahdi/atwork/robot_ws/build/alpha_robot -- -j6 -l6
+Invoking command in '/home/mahdi/atwork/robot_ws/build/alpha_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mahdi/atwork/robot_ws/build/alpha_robot
+Invoked command in '/home/mahdi/atwork/robot_ws/build/alpha_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mahdi/atwork/robot_ws/build/alpha_robot
